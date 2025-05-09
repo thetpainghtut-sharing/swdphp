@@ -1,0 +1,128 @@
+<?php
+$greeting = "Hello, world";
+echo $greeting;
+?>
+
+
+
+
+
+
+
+
+step 1: declare a variable, and assign a number,
+step 2: condition (if number/2 == 0, this number is even) // echo
+step 3: condition (else , this number is odd) // echo
+
+
+
+step 1: declare two variables, num1 and num2, and then assign value respectively
+step 2: declare a variable, action and then firstly assign value "+"
+step 3: switch condition, 
+        if +, show result of num1 + num2
+        if -, show result of num1 - num2
+        if *, show result of num1 * num2
+        if /, show result of num1 / num2
+        else, show error message
+
+let expression = 'banana';
+
+switch (expression) {
+  case 'apple':
+    console.log('It is an apple.');
+    break;
+  case 'banana':
+    console.log('It is a banana.');
+    break;
+  case 'orange':
+    console.log('It is an orange.');
+    break;
+  default:
+    console.log('Unknown fruit.');
+}
+
+4! = 4 × 3 × 2 × 1 = 24
+
+$result = factorialFun(5);
+echo $result; // 120
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+$name = "Alice";
+echo $nmae;
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+echo "Welcome to PHP programming;
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+$number = "5";
+$result = sqrt($number);
+echo "Square root of $number is: " . $result;
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+$age = 20;
+
+if ($age > 18)
+    echo "You are a minor.";
+else
+    echo "You are an adult.";
+?>
+
