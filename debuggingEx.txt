@@ -126,3 +126,30 @@ else
     echo "You are an adult.";
 ?>
 
+
+
+Revision
+=========
+
+1. 
+- local server - XAMPP install (Apache, MySQl)
+- first php file
+
+2. 
+- data types ()
+-  git push
+
+3. 
+- error find
+- partice 
+
+4.
+- function 
+  - resuable, call
+  - default value 
+  - limit type, return type
+  - scope - global
+- array 
+  - index 
+  - associative 
+  - multidimensional

@@ -98,8 +98,23 @@
     }
   }
 
+  // Multidimensional Array
+  $users = array(
+    array("name" => "Aung", "age" => 30, "city" => "Yangon"),
+    array("name" => "Kyaw Kyaw", "age" => 40, "city" => "Mandalay"),
+    array("name" => "Hla Hla", "age" => 50, "city" => "Mandalay")
+  );
+
+  foreach($users as $user) {
+    echo "<br>";
+    echo $user["name"] . ", " . $user["age"] . ", " . $user["city"];
+  }
 
   // Todo
   // create new file - form.php
   // HTML form (name - text, age - number, city - text, submit - button)
 ?>
+
+<?php echo "Hello"; ?>
+
+<?= "Hello" ?>
