@@ -1,0 +1,17 @@
+// Features
+- students (name, grade) - store in array - multi
+- Display (name / (passed or failed))
+
+// Pages
+- login (username, password) - admin, 123456
+- view student info (light / dark)
+- logout
+
+
+// index.php (login form)
+
+// dashboard.php (student info)
+
+// set_theme.php (btn to switch)
+
+// logout.phph (delete login session)

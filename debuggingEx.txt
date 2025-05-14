@@ -153,3 +153,14 @@ Revision
   - index 
   - associative 
   - multidimensional
+
+
+// Static Web Page
+- HTML, 
+- CSS - bootstrap, 
+- JS - jQuery - (write less, do more)
+
+- webpack -> build -> 
+
+- 
+- 
