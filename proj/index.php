@@ -1,7 +1,8 @@
 <?php 
   session_start();
   if(isset($_SESSION['login'])) {
-    session_destroy();  
+    header("Location: dashboard.php"); // already logged in
+    exit();
   }
 ?>
 <!DOCTYPE html>
@@ -31,7 +32,7 @@
     if ($username == "admin" && $password == "123456") {
       $_SESSION['login'] = true;
       $_SESSION['username'] = $username;
-      header("Location: dashboard.php");
+      header("Location: dashboard.php"); // login successful
     } else {
       echo "Invalid username or password";
     }

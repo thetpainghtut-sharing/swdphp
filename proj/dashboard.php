@@ -4,6 +4,11 @@
     header("Location: index.php");
     exit();
   }
+
+  // theme setup
+  $theme = isset($_COOKIE['theme']) ? $_COOKIE['theme'] : 'light';
+  $bg = $theme == 'dark' ? '#222' : '#fff';
+  $color = $theme == 'dark' ? '#fff' : '#222';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,8 +17,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard Page</title>
 </head>
-<body>
-  Welcome to Dashboard!
+<body style="background-color: <?php echo $bg; ?>; color: <?php echo $color; ?>;">
+  Welcome to Dashboard, <?php echo $_SESSION['username']; ?>! | 
+  <a href="logout.php">Logout</a> | 
+  <a href="set_theme.php">Switch Theme</a>
   <!-- Logout -->
   <!-- Theme Switch -->
   <?php 
@@ -24,7 +31,7 @@
     ];
   ?>
 
-  <table>
+  <table border="1" cellpadding="5" style="background-color: <?php echo $bg; ?>; color: <?php echo $color; ?>;">
     <tr>
       <th>Name</th>
       <th>Grade</th>
