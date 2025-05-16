@@ -164,3 +164,20 @@ Revision
 
 - 
 - 
+
+
+
+
+- Home 
+- About 
+- Contact 
+
+
+Blog 
+- Home (posts) -> index.html
+- Post (detail ui) -> detail.html
+- Navbar (home, register, login) <-
+- Register (create form) -> register.html
+- Login (login form) -> login.html
+- Profile (ui) -> profile.html
+- Create Post (post crete form) -> createPost.html
